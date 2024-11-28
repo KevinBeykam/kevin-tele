@@ -1,0 +1,93 @@
+body{
+    font-family: Georgia;
+    background-color: #056a77 ;
+    text-align: center;
+    color: rgb(243, 226, 226)
+}
+header{
+    background-color: rgb(90, 196, 130);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    text-shadow: 2px 2px #d4af37 ;
+
+}
+header h1{
+    font-size: 2.5em;
+}
+section{
+    margin: 20px auto ;
+    padding: 20px;
+    max-width: 600px;
+    background-color: #0b6783;
+    border: 1px solid;
+    box-shadow: 8px 8px 4px #B0C4DE;    
+}
+section h2{
+    color: rgb(143, 185, 240) ;
+}
+
+section p, ul{
+    text-align: justify;
+    color: white;
+}
+ul{
+    text-align: left;
+    list-style-type: square;
+}
+
+footer{
+    margin-top: 130px;
+    padding: 10px;
+    background-color: rgb(24, 139, 82);
+     color: white;
+     font-size: 0.9em;
+}
+
+a{
+    color: darkblue;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+table{
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border: 1px solid #d4af37;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+  background-color: #d4af37; 
+  color: white;
+}
+thead th {
+  padding: 15px;
+  font-size: 1.1em;
+  border: 1px solid #b8860b;
+  /*text-transform: uppercase;*/
+}
+/* Estilo para as células da tabela */
+tbody td {
+  padding: 12px;
+  border: 1px solid #d4af37;
+  text-align: center;
+  font-size: 1em;
+}
+
+/* Alternar cores para linhas */
+tbody tr:nth-child(odd) {
+  background-color: #fffaf0; /* Tom claro */
+}
+
+tbody tr:nth-child(even) {
+  background-color: #fdf5e6; /* Outra variação */
+}
+
+/* Alteração ao passar o mouse sobre a linha */
+tbody tr:hover {
+  background-color: #f4e2c7;
+  cursor: pointer;
+}
